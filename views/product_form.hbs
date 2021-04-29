@@ -1,0 +1,29 @@
+<link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+<form method="POST" action="http://localhost:8000/upload" enctype="multipart/form-data">
+        
+    
+    
+  <div class="form-group">
+    <label   >Product ID</label>
+    <input type="text" class="form-control" id="1" name="product_id" aria-describedby="emailHelp" placeholder="Product ID">
+    <small id="1" class="form-text text-muted">Put here unique id.</small>
+  </div>
+   <div class="form-group">
+    <label >Product Name</label>
+    <input type="text" class="form-control" id="2" name="product_name" aria-describedby="emailHelp" placeholder="Product Name">
+    <small id="2" class="form-text text-muted">Enter product name</small>
+  </div>
+   <div class="form-group">
+   <label >Product Prize</label>
+   <input type="text" class="form-control" id="3" name="product_price" aria-describedby="emailHelp" placeholder="Product Price">
+   <small id="3" class="form-text text-muted">place the price here.</small>
+ </div>
+ <div class="form-group">
+   <label >Product image</label>
+   <input type="file" class="form-control" id="4" name="product_image" aria-describedby="emailHelp" placeholder="Product image">
+   <small id="4" class="form-text text-muted">place the price here.</small>
+ </div>
+ 
+<button type="submit" class="btn btn-primary">Save</button>
+</form>
